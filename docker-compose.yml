@@ -1,0 +1,11 @@
+services:
+  mongo:
+    image: mongo:latest  
+    container_name: mongo-dbusers
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root 
+      MONGO_INITDB_ROOT_PASSWORD: password
+      MONGO_INITDB_DATABASE: dbusers
+    ports:
+      - "27017:27017"  

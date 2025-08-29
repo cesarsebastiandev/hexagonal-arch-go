@@ -1,0 +1,13 @@
+Instalar MongoDB Community
+https://www.mongodb.com/try/download/community
+Instalar MongoShell
+https://www.mongodb.com/try/download/shell
+Comandos:
+mongod --version
+mongosh
+show dbs
+use dbusers
+db.createCollection("users")
+show collections
+db.users.find()
+exit /stop
